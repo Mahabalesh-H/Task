@@ -12,10 +12,10 @@ input {
 
 /* Apply a background color to the body */
 body {
-/*     background-color: aqua; */
+    /* background-color: aqua; */
     background-image: url(/assets/rg.jpeg);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: auto;
 }
 
 /* Center the container horizontally */
