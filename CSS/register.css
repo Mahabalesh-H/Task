@@ -12,7 +12,8 @@ input {
 
 /* Apply a background color to the body */
 body {
-    background-color: aqua;
+/*     background-color: aqua; */
+    background-image: url(/assets/public.svg);
 }
 
 /* Center the container horizontally */
