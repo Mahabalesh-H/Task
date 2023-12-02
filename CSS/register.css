@@ -13,7 +13,7 @@ input {
 /* Apply a background color to the body */
 body {
 /*     background-color: aqua; */
-    background-image: url(/assets/public.svg);
+    background-image: url(/assets/rg.jpeg);
 }
 
 /* Center the container horizontally */
@@ -21,8 +21,8 @@ body {
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    background-color: #ffffff00;
+    border: 3px solid #000000;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
