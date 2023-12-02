@@ -12,10 +12,8 @@ input {
 
 /* Apply a background color to the body */
 body {
-/*     background-color: #c6c4c4bb; */
+    /* background-color: #000000bb; */
     background-image: url(/assets/bg.jpeg);
-    background-repeat: no-repeat;
-    background-size: 100%;
 }
 
 /* Center the container horizontally */
@@ -24,9 +22,10 @@ body {
     max-width: 750px;
     margin: 50px auto;
     padding: 20px;
-/*     background-color: #0000004b; */
+    /* background-color: #0000004b; */
     background-image: url(/assets/img.jpeg);
     background-repeat: no-repeat;
+    background-size: auto;
     background-size: cover;
     border: 1px solid #ccc;
     border-radius: 5px;
