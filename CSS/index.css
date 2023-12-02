@@ -1,0 +1,70 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+a,
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: #c6c4c4bb;
+}
+
+/* Center the container horizontally */
+.container {
+    
+    max-width: 750px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #0000004b;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 240px;
+}
+
+/* Style the header */
+h2 {
+    color: #333;
+    text-align: center;
+}
+
+/* Style the navigation links */
+p {
+    padding-left: 33%;
+}
+a {
+    
+    width: 50%;
+    display: block;
+    text-align: center;
+    padding: 10px 0;
+    margin: 10px 0;
+    background-color: #00bbff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 3px;
+}
+
+a:hover {
+    background-color: rgba(0, 179, 95, 0.731);
+}
+
+/* Style the image */
+img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+/* Add some padding to the container on smaller screens */
+@media (max-width: 600px) {
+    .container {
+        padding: 15px;
+    }
+}
