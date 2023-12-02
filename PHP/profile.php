@@ -4,6 +4,7 @@ $conn = new mysqli('localhost', 'root', '', 'assignment');
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
+
 if ($_SERVER["REQUEST_METHOD"] == "GET") {
     $email = $_GET["email"];
     $sql = "SELECT * FROM user WHERE email = ?";
@@ -16,7 +17,8 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
         $user = $result->fetch_assoc();
         echo json_encode($user);
     } else {
-        echo "User not found!";
+        // Return a JSON response indicating that the user was not found
+        echo json_encode(["error" => "User not found"]);
     }
 
     $stmt->close();
