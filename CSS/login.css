@@ -15,7 +15,7 @@ body {
     /* background-color: #f4f4f4; */
     background-image: url(/assets/lg.jpg);
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
 }
 
 /* Center the container horizontally */
