@@ -1,0 +1,89 @@
+/* Reset some default styles */
+body,
+h1,
+h2,
+p,
+a,
+input {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Apply a background color to the body */
+body {
+    background-color: aqua;
+}
+
+/* Center the container horizontally */
+.container {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form */
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    background-color: #00ff08;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1500ff;
+}
+
+a{
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+p {
+    padding-left: 234px;
+}
+
+#b1 {
+    background-color: #00ff08;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    float: right;
+    margin-right: 10%;
+}
+
+#b1:hover {
+    background-color: #1500ff;
+}
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        width: 90%;
+    }
+}
