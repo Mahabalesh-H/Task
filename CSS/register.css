@@ -15,6 +15,7 @@ body {
     /* background-color: aqua; */
     background-image: url(/assets/rg.jpeg);
     background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /* Center the container horizontally */
